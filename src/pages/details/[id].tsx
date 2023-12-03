@@ -33,13 +33,11 @@ export default function Details(){
         getDataProps();
     }, []);
 
-
-    
     return (
         <DetailsInner>
             <DetailsInnerContent>
-                <TitlePage title='Detalhes do item'/>
-                {!!detailsData && <DetailsTable>
+                <TitlePage title='Detalhes do evento'/>
+                {!!detailsData && detailsData?.guests?.length && <DetailsTable>
                     <DetailsTableTh>
                         <DetailsTableThItem>
                             <DetailsTableThItemDate>{detailsData.date}</DetailsTableThItemDate>
