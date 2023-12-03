@@ -1,6 +1,6 @@
 import { styled } from "..";
 
-export const CardContainer = styled('a', {
+export const CardContainer = styled('div', {
     display: 'flex',
     flexDirection: 'column',
     width: 220,

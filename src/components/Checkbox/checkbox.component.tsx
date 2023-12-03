@@ -8,16 +8,7 @@ interface CheckboxProps {
 
 export function Checkbox({ label, unitAmount }: CheckboxProps){
     return (
-
         <div>
-            <CheckboxContainer>
-                <label>{label}
-                    <input type="checkbox"/>
-                    <span></span>
-                    <p>{convertToBrl(unitAmount)}</p>
-                </label>
-            </CheckboxContainer>
-
             <CheckboxContainer>
                 <label>{label}
                     <input type="checkbox"/>
