@@ -15,5 +15,17 @@ export const globalStyles = globalCss({
     'body, input textarea, button': {
         fontFamily: 'Raleway',
         fontWeight: 500
-    }
+    },
+
+    a: {
+        color: '$black'
+    },
+
+    'a:link': {
+        textDecoration: 'none'
+    },
+      
+    'a:visited': {
+        textDecoration: 'none'
+      }
 })

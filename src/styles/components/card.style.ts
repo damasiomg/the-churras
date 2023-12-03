@@ -9,7 +9,7 @@ export const CardContainer = styled('a', {
     padding: 25,
     boxShadow: 'rgba(0, 0, 0, 0.09) 0px 1px 6px',
     borderRadius: 2,
-    transition: 'background-color .5s',
+    transition: 'filter .5s',
     '&:hover': {
         filter: 'brightness(.98)',
     }

@@ -3,12 +3,15 @@ import { Button } from "../components/Button/button.component";
 import { Input } from "../components/Input/input.component";
 import { TitlePage } from "../components/Title/title.component";
 import { AppInner, AppInnerContent } from "../styles/pages/app.style";
+import { useRouter } from 'next/navigation'
 
 export default function Home() {
 
+  const router = useRouter();
+
   async function handleSubmit(e: FormEvent<HTMLFormElement>){
     e.preventDefault();
-    console.log('login');
+    return router.push('/list');
   }
 
   return (

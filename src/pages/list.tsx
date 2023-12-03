@@ -9,32 +9,16 @@ export default function List() {
       <ListInnerContent>
         <TitlePage title='Lista de Churras'/>
         <GroupCards>
-
           <Card 
             id={1}
             description='Niver do Gui'
             guestsAmount={6}
             date='01/12'
             totalAmount={280}
+            goTo={`/details/${1}`}
           />
           <Card 
             id={2}
-            description='Niver do Gui'
-            guestsAmount={6}
-            date='01/12'
-            totalAmount={280}
-          />
-
-          <Card 
-            id={3}
-            description='Niver do Gui'
-            guestsAmount={6}
-            date='01/12'
-            totalAmount={280}
-          />
-
-          <Card 
-            id={4}
             isAddCard
             addLabel='Adicionar Churras'
           />
