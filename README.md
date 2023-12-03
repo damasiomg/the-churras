@@ -1,7 +1,7 @@
 # The Churras
 
 ## What's it?
-This's a Next/TypeScript Project that simulates a This simulates a barbecue schedule.
+This's a Next/TypeScript Project that simulates a barbecue schedule.
 
 ## Main concepts:
 SSR, Docker, Stitches, Unit Tests (Jest), REST, Services and Components.
