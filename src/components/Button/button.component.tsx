@@ -5,10 +5,10 @@ interface ButtonProps {
     action?: () => void;
 }
 
-export function Button({ label }: ButtonProps){
+export function Button({ label, action }: ButtonProps){
     return (
         <ButtonContainer>
-            <ButtonInner>
+            <ButtonInner onClick={action}>
                 {label}
             </ButtonInner>
         </ButtonContainer>

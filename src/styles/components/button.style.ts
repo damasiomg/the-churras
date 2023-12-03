@@ -17,6 +17,7 @@ export const ButtonContainer = styled('div', {
     color: '$white',
     border: 'none',
     borderRadius: 18,
+    cursor: 'pointer',
     transition: 'background-color .5s',
     '&:hover': {
         filter: 'opacity(.85)',

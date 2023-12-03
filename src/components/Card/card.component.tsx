@@ -23,14 +23,14 @@ export function Card({ id, date, description, guestsAmount, totalAmount, isAddCa
         isAddCard ? (
             <Link href={goTo}>
             
-                <CardContainer style={{ backgroundColor: `${theme.colors.terciary}`, justifyContent: 'center', alignItems: 'center'}}>
+                <CardContainer data-testid='Add Card' style={{ backgroundColor: `${theme.colors.terciary}`, justifyContent: 'center', alignItems: 'center'}}>
                     <Image src={addIcon.src} height={addIcon.height} width={addIcon.width} alt=''/>
                     <CardAddDescription>{addLabel}</CardAddDescription>
                 </CardContainer>
             </Link>
         ) : (
             <Link href={goTo}>
-                <CardContainer>
+                <CardContainer data-testid='Link Card'>
                     <DateItem>{date}</DateItem>
                     <DescriptionItem>{description}</DescriptionItem>
                     <DetailsCardContainer>
